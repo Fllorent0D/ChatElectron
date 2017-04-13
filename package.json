@@ -1,0 +1,25 @@
+{
+  "name": "ChatElectron",
+  "version": "0.1",
+  "description": "A minimal chat build with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "server": "node chat-server.js"
+  },
+  "repository": "https://github.com/Fllorent0D/Chat-electron",
+  "keywords": [
+    "Electron",
+    "quick"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "jquery": "^3.2.1",
+    "websocket": "^1.0.24"
+  }
+}
